@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # 📁 파일 경로 설정
-PREDEFINED_FILE_PATH = r'C:\Users\hanse\Desktop\combine\combined.xlsx'
+PREDEFINED_FILE_PATH = 'combined2.xlsx'
 
 # 📄 데이터 로드
 @st.cache_data
