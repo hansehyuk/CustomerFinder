@@ -19,14 +19,14 @@ if not st.session_state.authorized:
             st.warning("등록된 아이디가 아닙니다.")
 
     # 👇 이미지 아래쪽에 추가 (중앙 정렬)
-    st.image(pepe.png, width=1600)
+    st.image("pepe.png", width=1600)
 
     st.stop()
 
  
 
 # 📁 파일 경로 설정
-PREDEFINED_FILE_PATH = r'C:\Users\hanse\Desktop\combine\combined2.xlsx'
+PREDEFINED_FILE_PATH = "combined2.xlsx"
 
 # 📄 데이터 로드
 @st.cache_data
