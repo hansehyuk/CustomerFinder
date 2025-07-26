@@ -19,7 +19,7 @@ if not st.session_state.authorized:
             st.warning("등록된 아이디가 아닙니다.")
 
     # 👇 이미지 아래쪽에 추가 (중앙 정렬)
-    st.image(r"C:\Users\hanse\Desktop\combine\pepe.png", width=1600)
+    st.image(pepe.png, width=1600)
 
     st.stop()
 
